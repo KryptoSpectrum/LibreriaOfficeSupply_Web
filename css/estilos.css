@@ -1,0 +1,35 @@
+input{
+	width: 300px;
+	height: 35px;
+	margin-bottom: 55px;
+}
+
+textarea{
+	width: 604px;
+	height: 70px;
+	margin-top: 5px
+
+}
+
+input, textarea{
+	background: transparent;
+	border: solid 2px #fff; 
+	color: #fff;
+	font-family: "montserrat",sans-serif;
+}
+
+input[type=submit]{
+	color: #fff;
+	background-color: #2163BC;
+}
+
+input[type=submit]:hover{
+	color: blue;
+	background-color: yellow;
+	border: solid 2px white; 
+}
+
+::-webkit-input-placeholder{
+	color: #fff;
+}
+

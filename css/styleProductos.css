@@ -1,0 +1,39 @@
+
+ul{
+	text-decoration: none;
+	margin:0px 110px;
+	padding: 0;
+	
+}
+	ul li{
+		text-decoration: none;
+		list-style: none;
+		padding: 10px 450px;
+		text-align: center;
+	}
+		ul li a{
+			text-decoration: none;
+			text-transform: uppercase;
+			font-size: 2em;
+			color:#262626;
+			position: relative;
+		}
+
+		ul li a:hover{
+			color:#262626;
+		}
+			ul li a:before{
+				content: '';
+				width: 0px;
+				height: 5px;
+				background: #0453B3;
+				position: absolute;
+				top:100%;
+				left: 0;
+				transition: .5s;
+
+			}
+			ul li:hover a:before{
+				width: 50%;
+				transform: translateX(100%);
+			}
